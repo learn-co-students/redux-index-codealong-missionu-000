@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import CreateTodo from './components/todos/CreateTodo'
-import Todos from './components/todos/Todos'
+import CreateTodo from './components/todos/CreateTodo';
+import Todos from './components/todos/Todos';
 
 class App extends Component {
   render() {
@@ -10,7 +10,7 @@ class App extends Component {
         <Todos store={this.props.store} />
       </div>
     );
-  }
-}
+  };
+};
 
 export default App;
