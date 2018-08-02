@@ -3,6 +3,7 @@ export default function manageTodo(state = {
 }, action) {
   switch (action.type) {
     case 'ADD_TODO':
+<<<<<<< HEAD
 
       return { todos: state.todos.concat(action.payload.text) };
 
@@ -10,3 +11,10 @@ export default function manageTodo(state = {
       return state;
   }
 }
+=======
+      return { todos: state.todos.concat(action.todo) }
+    default:
+      return state;
+  };
+};
+>>>>>>> canon/solution

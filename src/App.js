@@ -10,7 +10,7 @@ class App extends Component {
         <TodosContainer />
       </div>
     );
-  }
-}
+  };
+};
 
 export default App;
