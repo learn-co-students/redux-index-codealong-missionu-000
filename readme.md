@@ -19,7 +19,7 @@ The `CreateTodo` component is handling the creation side of things, so let's mak
 // ./src/components/todos/TodosContainer.js
 
 import React, { Component } from 'react';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 
 class TodosContainer extends Component {
 
@@ -57,7 +57,7 @@ To start, we'll have each todo rendered as a list item. Open the `Todo.js` file 
 ```js
 // ./src/components/todos/Todo.js
 
-import React from 'react'
+import React from 'react';
 
 const Todo = props => {
   return (
@@ -74,8 +74,8 @@ Then, in our __TodosContainer__ component, we'll import our `Todo` component, th
 // ./src/components/todos/TodosContainer.js
 
 import React, { Component } from 'react';
-import { connect } from 'react-redux'
-import Todo from './Todo'
+import { connect } from 'react-redux';
+import Todo from './Todo';
 
 class TodosContainer extends Component {
 
