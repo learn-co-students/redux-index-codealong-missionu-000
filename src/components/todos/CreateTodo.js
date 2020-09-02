@@ -2,11 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 class CreateTodo extends Component {
-  constructor() {
-    super();
-    this.state = {
-      text: '',
-    };
+  state = {
+    text: ''
   }
 
   handleChange = event => {
@@ -27,8 +24,8 @@ class CreateTodo extends Component {
           <input
             type="text"
             placeholder="add todo" 
-            onChange={this.handleChange}
             value={this.state.text}
+            onChange={this.handleChange}
           />
           <input type="submit" />
         </form>
